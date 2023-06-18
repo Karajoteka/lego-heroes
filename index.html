@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lego Heroes</title>
+</head>
+<body>
+  <div class="page">
+
+    <!-- Main Content -->
+    <section class="container">
+
+      <nav class="navbar">
+        <div class="navbar__content">
+          <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="Logo">
+          <ul>
+            <li>EXCLUSIVOS</li>
+            <li>NUEVOS</li>
+            <li>GIFT CARDS</li>
+            <li>FIND A STORE</li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="main-content">
+        <p>Diseña tu</p>
+        <h1>Súper Héroe!</h1>
+        <p>Lego Super Heroes es una emocionante colección de sets de construcción basados en los icónicos personajes y universos de Marvel y DC Comics. Con la posibilidad de construir y jugar con héroes como Spider-Man, Batman, Iron Man y muchos más, los fans de todas las edades podrán recrear épicas batallas y vivir increíbles aventuras en un mundo de bloques.</p>
+      </section>
+
+      <section class="side-content">
+        <div></div>
+        <p>Superman</p>
+        <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="Superman">       
+      </section>
+
+      <section class="footer">
+        <div id="superhero">
+          <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Spiderman">
+        </div>
+        <div id="superhero">
+          <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Robin">
+        </div>
+        <div id="superhero">
+          <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Batman">
+        </div>
+      </section>
+    </section>
+
+    <!-- Loader -->
+    <!-- <section class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </section> -->
+
+    <!-- Modal -->
+    <section class="modal hidden">
+      <div class="modal__content">
+        <img class="modal__content--close" src="./imgs/icons8-close-50.png" alt="">
+
+        <div class="modal__content--slider">
+          <input type="radio" name="slider-1" id="radio-1" checked>
+          <input type="radio" name="slider-1" id="radio-2">
+          <input type="radio" name="slider-1" id="radio-3">
+
+          <div class="cards">
+            <label for="radio-1" id="card-1" class="card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="Spiderman 1">
+            </label>
+            <label for="radio-2" id="card-2" class="card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="Spiderman 2">
+            </label>
+            <label for="radio-3" id="card-3" class="card">
+              <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="Spiderman 3">
+            </label>
+          </div>
+
+          <div class="modal-button">
+            <input type="button" value="Lo quiero!">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
